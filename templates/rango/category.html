@@ -15,7 +15,7 @@
 			{% endfor %}
 		</ul>
 		{% else %}
-		<strong>No pages currently in category</strong>
+		<strong>No pages currently in category.</strong>
 		{% endif %}
 		<a href="{% url 'add_page' category.slug %}">Add a Page</a>
 	{% else %}
