@@ -39,8 +39,6 @@ class PageForm(forms.ModelForm):
         exclude = ('category',)
 
 
-
-
 class UserForm(forms.ModelForm):
 
     password = forms.CharField(widget=forms.PasswordInput())
